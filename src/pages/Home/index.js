@@ -1,10 +1,12 @@
 import Card from '../../components/Card';
+import Header from '../../components/Header';
 import { nfts } from './mock';
 import styles from './styles.module.css';
 
 export function Home() {
   return (
     <div className={styles.container}>
+      <Header />
       <div className={styles.content}>
         <div className={styles.filters}>
           <button className={styles.button}>Filters</button>
