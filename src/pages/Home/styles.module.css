@@ -23,6 +23,9 @@
   color: #fff;
   line-height: 2rem;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.72rem;
 }
 
 .smallButton {
@@ -32,6 +35,9 @@
   color: #fff;
   line-height: 2rem;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.72rem;
 }
 
 .button:hover,
@@ -43,9 +49,19 @@
 .smallButton:active {
   transform: scale(0.95);
 }
+.inputContainer {
+  width: 40%;
+  position: relative;
+}
+
+.inputIconContainer {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
 
 .input {
-  width: 55%;
+  width: 100%;
   padding: 1rem;
   border-radius: 0.625rem;
   border: 2px solid #fff;

@@ -1,4 +1,7 @@
 import styles from './styles.module.css';
+import Search from '../../assets/icons/Search';
+import Lock from '../../assets/icons/Lock';
+import Hamburger from '../../assets/icons/Hamburger';
 
 export default function Header() {
   return (
@@ -17,14 +20,14 @@ export default function Header() {
       </ul>
       <ul className={styles.userInfoContainer}>
         <li>
-          <span>S</span>
+          <Search />
         </li>
-        <li>
-          <span>L</span>
+        <li className={styles.authContainer}>
+          <Lock />
           <span>Sign In</span>
         </li>
-        <li>
-          <span>H</span>
+        <li className={styles.hamburgerContainer}>
+          <Hamburger />
         </li>
       </ul>
     </div>

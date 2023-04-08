@@ -7,6 +7,7 @@ export const nfts = [
     likes: 34,
     author: {
       name: '@marterium',
+      imgUrl: require('../../assets/author-1.png'),
     },
     imgUrl: require('../../assets/nft-1.png'),
   },
@@ -18,6 +19,7 @@ export const nfts = [
     likes: 34,
     author: {
       name: '@marterium',
+      imgUrl: require('../../assets/author-2.png'),
     },
     imgUrl: require('../../assets/nft-2.png'),
   },
@@ -29,6 +31,7 @@ export const nfts = [
     likes: 34,
     author: {
       name: '@marterium',
+      imgUrl: require('../../assets/author-3.png'),
     },
     imgUrl: require('../../assets/nft-3.png'),
   },
@@ -40,6 +43,7 @@ export const nfts = [
     likes: 34,
     author: {
       name: '@marterium',
+      imgUrl: require('../../assets/author-4.png'),
     },
     imgUrl: require('../../assets/nft-4.png'),
   },
@@ -51,6 +55,7 @@ export const nfts = [
     likes: 34,
     author: {
       name: '@marterium',
+      imgUrl: require('../../assets/author-5.png'),
     },
     imgUrl: require('../../assets/nft-5.png'),
   },
@@ -62,6 +67,7 @@ export const nfts = [
     likes: 34,
     author: {
       name: '@marterium',
+      imgUrl: require('../../assets/author-6.png'),
     },
     imgUrl: require('../../assets/nft-6.png'),
   },
@@ -73,6 +79,7 @@ export const nfts = [
     likes: 34,
     author: {
       name: '@marterium',
+      imgUrl: require('../../assets/author-7.png'),
     },
     imgUrl: require('../../assets/nft-7.png'),
   },
@@ -84,6 +91,7 @@ export const nfts = [
     likes: 34,
     author: {
       name: '@marterium',
+      imgUrl: require('../../assets/author-8.png'),
     },
     imgUrl: require('../../assets/nft-8.png'),
   },
@@ -95,6 +103,7 @@ export const nfts = [
     likes: 34,
     author: {
       name: '@marterium',
+      imgUrl: require('../../assets/author-9.png'),
     },
     imgUrl: require('../../assets/nft-9.png'),
   },
@@ -106,6 +115,7 @@ export const nfts = [
     likes: 34,
     author: {
       name: '@marterium',
+      imgUrl: require('../../assets/author-10.png'),
     },
     imgUrl: require('../../assets/nft-10.png'),
   },
@@ -117,6 +127,7 @@ export const nfts = [
     likes: 34,
     author: {
       name: '@marterium',
+      imgUrl: require('../../assets/author-11.png'),
     },
     imgUrl: require('../../assets/nft-11.png'),
   },
@@ -128,6 +139,7 @@ export const nfts = [
     likes: 34,
     author: {
       name: '@marterium',
+      imgUrl: require('../../assets/author-12.png'),
     },
     imgUrl: require('../../assets/nft-12.png'),
   },
@@ -139,6 +151,7 @@ export const nfts = [
     likes: 34,
     author: {
       name: '@marterium',
+      imgUrl: require('../../assets/author-13.png'),
     },
     imgUrl: require('../../assets/nft-13.png'),
   },
@@ -150,6 +163,7 @@ export const nfts = [
     likes: 34,
     author: {
       name: '@marterium',
+      imgUrl: require('../../assets/author-14.png'),
     },
     imgUrl: require('../../assets/nft-14.png'),
   },
@@ -161,6 +175,7 @@ export const nfts = [
     likes: 34,
     author: {
       name: '@marterium',
+      imgUrl: require('../../assets/author-15.png'),
     },
     imgUrl: require('../../assets/nft-15.png'),
   },
