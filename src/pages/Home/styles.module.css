@@ -52,3 +52,12 @@
   background-color: rgba(255, 255, 255, 0);
   color: #fff;
 }
+
+.nfts {
+  margin-top: 4.375rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.6%;
+}
