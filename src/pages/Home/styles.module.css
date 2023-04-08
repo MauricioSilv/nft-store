@@ -77,3 +77,27 @@
   justify-content: center;
   gap: 2.6%;
 }
+
+.loadMoreContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  padding-bottom: 7rem;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  flex-direction: column;
+}
+
+.loadMoreContainer:hover {
+  transform: scale(1.05);
+}
+
+.loadMoreContainer:active {
+  transform: scale(0.95);
+}
+
+.loadMoreContainer svg {
+  margin-bottom: 0.75rem;
+}

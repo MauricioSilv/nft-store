@@ -8,8 +8,19 @@ import Column from '../../assets/icons/Column';
 import List from '../../assets/icons/List';
 import Reload from '../../assets/icons/Reload';
 import Search from '../../assets/icons/Search';
+import { useState } from 'react';
 
 export function Home() {
+  const [searchValue, setSearchValue] = useState('');
+
+  function handleInputChange(e) {
+    setSearchValue(e.target.value);
+  }
+
+  const filteredNFTs = nfts.filter((nft) =>
+    nft.name.toLocaleLowerCase().includes(searchValue)
+  );
+
   return (
     <div className={styles.container}>
       <Header />
@@ -28,6 +39,8 @@ export function Home() {
               type="text"
               placeholder="Search by collection, user or NFT..."
               className={styles.input}
+              onChange={handleInputChange}
+              value={searchValue}
             />
             <div className={styles.inputIconContainer}>
               <Search />
@@ -45,12 +58,15 @@ export function Home() {
           </button>
         </div>
         <div className={styles.nfts}>
-          {nfts.map((nft) => (
+          {filteredNFTs.map((nft) => (
             <Card key={nft.id} nft={nft} />
           ))}
         </div>
-        <div>
-          <Reload />
+        <div className={styles.loadMoreContainer}>
+          <div>
+            <Reload />
+          </div>
+          <span>show more</span>
         </div>
       </div>
     </div>

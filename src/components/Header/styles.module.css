@@ -16,6 +16,7 @@
 .menuContainer {
   display: flex;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 .menuContainer li span {
@@ -27,6 +28,7 @@
   list-style: none;
   gap: 3.75rem;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .logo {
